@@ -3,17 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Landing Page</title>
   </head>
   <body>
-    <div class="main-flex">
+    <div class="hero">
       <div class="header-flex">
-        <h1>Header Logo</h1>
-        <p>header link one</p>
-        <p>header link two</p>
-        <p>header link three</p>
+        <h1 id="logo">Header Logo</h1>
+        <p class="link">header link one</p>
+        <p class="link">header link two</p>
+        <p class="link">header link three</p>
       </div>
-      <div class="hero-flex">
+      <div class="hero-section">
         <div class="main-text">
           <h1>This website is awesome</h1>
           <p>
@@ -22,49 +23,47 @@
           </p>
           <button>Sign Up</button>
         </div>
-        <div class="sec-text">
+        <div class="placeholder">
           <p>this a placeholder for an image</p>
         </div>
       </div>
-      <div class="information-flex">
-        <h1>Some random information.</h1>
-        <div class="iformation-boxes">
-          <div class="box">
-            <p>this is some subtext under an illustration or an image</p>
-          </div>
-          <div class="box">
-            <p>this is some subtext under an illustration or an image</p>
-          </div>
-          <div class="box">
-            <p>this is some subtext under an illustration or an image</p>
-          </div>
-          <div class="box">
-            <p>this is some subtext under an illustration or an image</p>
-          </div>
-        </div>
+    </div>
+    <div class="information">
+      <h1 class="title">Some random information.</h1>
+      <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
       </div>
-      <div class="quote-flex">
-        <p class="quote-text">
-          <em>
-            This is an inspiring quote, or a testimonial from a customer. Maybe
-            it's just filling up space, or maybe people will actually read
-            it. Who knows? All i know is that it looks nice.
-          </em>
-        </p>
-        <h4>-Thor, God of Thunder</h4>
+      <div class="boxes-information">
+        <p>this is some subtext under an illustration or an image</p>
+        <p>this is some subtext under an illustration or an image</p>
+        <p>this is some subtext under an illustration or an image</p>
+        <p>this is some subtext under an illustration or an image</p>
       </div>
-      <div class="signup-flex">
-        <div class="signup-text">
-          <h2>Call to action! It's time!</h2> 
-          <p>Sign up for our product by clicking that button right over there!</p>
-        </div>
-        <div class="signup-button">
-          <button>Sign up</button> 
-        </div>
+    </div>
+    <div class="quote">
+      <p>
+        <em>
+          "This is an inspiring quote, or a testimonial from a customer. Maybe
+          it's just filling up space, or maybe people will actually read it. Who
+          knows? All i know is that it looks nice."
+        </em>
+      </p>
+      <p class="quote-author">-Thor, God of Thunder</p>
+    </div>
+    <div class="signup-flex">
+      <div class="signup-text">
+        <h2>Call to action! It's time!</h2>
+        <p>Sign up for our product by clicking that button right over there!</p>
       </div>
-      <div class="footer-flex">
-        <p>Copyright © The Odin Project 2021</p>  
+      <div class="signup-button">
+        <button>Sign up</button>
       </div>
+    </div>
+    <div class="footer-flex">
+      <p>Copyright © The Odin Project 2021</p>
     </div>
   </body>
 </html>
